@@ -34,12 +34,12 @@ This example shows how HTML `<form>` works to send user input to backend.
 ```    
 
 ### To run this example: 
-1. Clone this repository using `git clone https://github.com/UCI-Chenli-teaching/cs122b-fall21-project2-form-example.git`
-2. Open IntelliJ IDEA -> Open -> (Find the location of the repository) -> Choose "cs122b-fall21-project2-form-example" directory -> Click "OK" -> wait until Sync is complete.
+1. Clone this repository using `git clone`
+2. Open IntelliJ IDEA -> Open -> (Find the location of the repository) -> Choose "cs122b-project2-form-example" directory -> Click "OK" -> wait until Sync is complete.
 3. In `WebContent/META-INF/context.xml`, make sure the mysql username is `mytestuser` and password is `My6$Password`.
 4. Also make sure you have the `moviedbexample` database.
 5. In Tomcat Deployment Configuration, make sure the application context is: /cs122b-fall21-project2-form-example
-6. To run the example, follow the instructions in [canvas](https://canvas.eee.uci.edu/courses/40150/pages/intellij-idea-tomcat-configuration)
+6. To run the example, follow the instructions on Canvas.
 
 
 ### Brief Explanation
