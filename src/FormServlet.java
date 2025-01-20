@@ -64,7 +64,7 @@ public class FormServlet extends HttpServlet {
 
 
             // Log to localhost log
-            request.getServletContext().log("query：" + query);
+            request.getServletContext().log("query: " + query);
 
             // Perform the query
             ResultSet rs = statement.executeQuery(query);
@@ -100,7 +100,7 @@ public class FormServlet extends HttpServlet {
              */
             request.getServletContext().log("Error: ", e);
 
-            // Output Error Massage to html
+            // Output Error Message to html
             out.println(String.format("<html><head><title>MovieDBExample: Error</title></head>\n<body><p>SQL error in doGet: %s</p></body></html>", e.getMessage()));
             return;
         }
